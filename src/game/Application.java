@@ -56,6 +56,7 @@ public class Application {
 
         // game setup
         gameMap.at(24, 11).addItem(new Talisman());
+        gameMap.at(26, 13).addActor(new OmenSheep());
 
         world.run();
     }
