@@ -27,7 +27,7 @@ public abstract class Actor extends GameEntity implements Printable {
 
     /**
      * A flexible and extensible attributes system that allows new attributes to be added,
-     * which enables more interesting game mechanics.
+     * which enables more interesting game.game mechanics.
      * For example, in addition to hit points, another attribute that represents its stamina can be added.
      * If the actor runs out of stamina, it will be unable to perform certain actions, such as attacking.
      */
@@ -338,7 +338,7 @@ public abstract class Actor extends GameEntity implements Printable {
      * Is this Actor conscious?
      * Returns true if the current Actor has positive hit points.
      * Actors on zero hit points are deemed to be unconscious.
-     * Depending on the game client, this status may be interpreted as either
+     * Depending on the game.game client, this status may be interpreted as either
      * unconsciousness or death, or inflict some other kind of status.
      *
      * @return true if and only if hitPoints is positive.

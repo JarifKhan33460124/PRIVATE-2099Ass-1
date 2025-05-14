@@ -1,9 +1,9 @@
 package edu.monash.fit2099.engine.actors;
 
 /**
- * A class that represents a wallet that can be used to store the game's currency.
- * Example #1: the balance of the wallet can represent the amount of souls in the Dark Souls game.
- * Example #2: the balance of the wallet can also represent the amount of runes in the Elden Ring game.
+ * A class that represents a wallet that can be used to store the game.game's currency.
+ * Example #1: the balance of the wallet can represent the amount of souls in the Dark Souls game.game.
+ * Example #2: the balance of the wallet can also represent the amount of runes in the Elden Ring game.game.
  */
 public class Wallet {
     private int balance;

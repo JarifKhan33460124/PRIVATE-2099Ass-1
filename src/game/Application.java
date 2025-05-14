@@ -9,7 +9,7 @@ import edu.monash.fit2099.engine.positions.GameMap;
 import edu.monash.fit2099.engine.positions.World;
 
 /**
- * The main class to setup and run the game.
+ * The main class to setup and run the game.game.
  * @author Adrian Kristanto
  */
 public class Application {
@@ -54,10 +54,10 @@ public class Application {
         Player player = new Player("Farmer", '@', 100);
         world.addPlayer(player, gameMap.at(23, 10));
 
-        // game setup
+        // game.game setup
         gameMap.at(24, 11).addItem(new Talisman());
-        gameMap.at(26, 13).addActor(new OmenSheep());
-
+        gameMap.at(26, 13).addActor(new SpiritGoat());
+        gameMap.at(22, 14).addActor(new OmenSheep());
         world.run();
     }
 }

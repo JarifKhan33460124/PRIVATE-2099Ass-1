@@ -1,7 +1,7 @@
 package game;
 
 /**
- * Fancy messages used to print the game title
+ * Fancy messages used to print the game.game title
  * Font obtained from: <a href="https://patorjk.com/software/taag/#p=display&f=Georgia11&t=">link</a>
  * Font: Georgia11
  * @author Adrian Kristanto

@@ -5,7 +5,7 @@ import edu.monash.fit2099.engine.capabilities.CapabilitySet;
 import java.util.List;
 
 /**
- * Base class for all objects that can exist in the game.
+ * Base class for all objects that can exist in the game.game.
  * It allows entities to have capabilities.
  * Example #1: an actor that has the Status.PARALYZED capability cannot take any action.
  * Example #2: an actor that has the Ability.ENTER_DOORS capability can enter a door.

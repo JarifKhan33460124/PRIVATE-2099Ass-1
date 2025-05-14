@@ -8,7 +8,7 @@ public class BaseActorAttribute implements ActorAttribute<Integer> {
     private int points;
 
     /**
-     * At the start of the game, the points of the attributes match the maximum points.
+     * At the start of the game.game, the points of the attributes match the maximum points.
      * @param maximumPoints the maximum points of the attribute
      */
     public BaseActorAttribute(int maximumPoints) {

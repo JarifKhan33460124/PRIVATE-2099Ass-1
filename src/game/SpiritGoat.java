@@ -11,10 +11,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * The SpiritGoat class represents a unique non-player character (NPC) in the game.
+ * The SpiritGoat class represents a unique non-player character (NPC) in the game.game.
  * It extends the Actor class and contains behaviors specific to the Spirit Goat.
  * The Spirit Goat can roam the map autonomously and be interacted with by other actors.
- * It has a defined set of actions it can execute during its turn in the game.
+ * It has a defined set of actions it can execute during its turn in the game.game.
  */
 public class SpiritGoat extends Actor {
     private final List<Behaviour> behaviours = new ArrayList<>();

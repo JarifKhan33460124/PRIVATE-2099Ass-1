@@ -208,7 +208,7 @@ public class GameMap {
     }
 
     /**
-     * Returns an enumerable NumberRange representing the valid X values of the game map.
+     * Returns an enumerable NumberRange representing the valid X values of the game.game map.
      *
      * @return the valid X indices
      */
@@ -217,7 +217,7 @@ public class GameMap {
     }
 
     /**
-     * Returns an enumerable NumberRange representing the valid Y values of the game map.
+     * Returns an enumerable NumberRange representing the valid Y values of the game.game map.
      *
      * @return the valid Y indices
      */
@@ -325,7 +325,7 @@ public class GameMap {
     /**
      * The toString method of the GameMap class should only print out its name, e.g. Caelid
      *
-     * @return the name of the current game map
+     * @return the name of the current game.game map
      */
     @Override
     public String toString() {

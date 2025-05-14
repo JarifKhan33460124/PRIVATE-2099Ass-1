@@ -33,7 +33,7 @@ public interface ActorAttribute<T> {
     /**
      * Getter for the maximum points of the attribute.
      * For example, after being attacked by an enemy, the health of the current actor is less than the maximum health, e.g. (490/500).
-     * The actor will start the game with the maximum health, e.g. (500/500)
+     * The actor will start the game.game with the maximum health, e.g. (500/500)
      * @return the maximum points of the attribute
      */
     default T getMaximum() {
@@ -43,7 +43,7 @@ public interface ActorAttribute<T> {
     /**
      * Overwrites the current maximum points of the attribute with the given points.
      * For example, after being attacked by an enemy, the health of the current actor is less than the maximum health, e.g. (490/500).
-     * The actor will start the game with the maximum health, e.g. (500/500)
+     * The actor will start the game.game with the maximum health, e.g. (500/500)
      * @param points the points to overwrite the current maximum points of the attribute
      */
     default void updateMaximum(T points) {
@@ -54,7 +54,7 @@ public interface ActorAttribute<T> {
      * Increases the current maximum points of the attribute by the given points.
      * This will add to the existing maximum points of an attribute without overwriting the maximum points.
      * For example, after being attacked by an enemy, the health of the current actor is less than the maximum health, e.g. (490/500).
-     * The actor will start the game with the maximum health, e.g. (500/500)
+     * The actor will start the game.game with the maximum health, e.g. (500/500)
      * @param points the points to increase the current maximum points of the attribute
      */
     default void increaseMaximum(T points) {
@@ -65,7 +65,7 @@ public interface ActorAttribute<T> {
      * Decreases the current maximum points of the attribute by the given points.
      * This will subtract from the existing maximum points of an attribute without overwriting the maximum points.
      * For example, after being attacked by an enemy, the health of the current actor is less than the maximum health, e.g. (490/500).
-     * The actor will start the game with the maximum health, e.g. (500/500)
+     * The actor will start the game.game with the maximum health, e.g. (500/500)
      * @param points the points to decrease the current maximum points of the attribute
      */
     default void decreaseMaximum(T points) {

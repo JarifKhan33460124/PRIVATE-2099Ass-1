@@ -8,7 +8,7 @@ import edu.monash.fit2099.engine.positions.GameMap;
 import edu.monash.fit2099.engine.positions.Location;
 
 /**
- * Abstract base class representing a physical object in the game world.
+ * Abstract base class representing a physical object in the game.game world.
  *
  */
 public abstract class Item extends GameEntity implements Printable {
